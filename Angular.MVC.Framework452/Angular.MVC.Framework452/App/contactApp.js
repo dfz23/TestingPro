@@ -1,0 +1,1 @@
+﻿var contactApp = angular.module('contactApp', ['ngRoute','ngResource']);
