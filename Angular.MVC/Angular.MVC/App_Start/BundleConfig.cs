@@ -22,6 +22,16 @@ namespace Angular.MVC
             bundles.Add(new ScriptBundle("~/bundles/bootstrap").Include(
                       "~/Scripts/bootstrap.js",
                       "~/Scripts/respond.js"));
+            bundles.Add(new ScriptBundle("~/bundles/angularApp").Include(
+                "~/Scripts/angular.js",
+                "~/Scripts/angular-route.js",
+                "~/Scripts/angular-resource.js",
+                "~/Scripts/angular-ui/bootstrap.js",
+
+                "~/App/contactApp.js",
+                "~/App/clientRoute.js",
+                "~/App/contact/controller/contactController.js"
+                ));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",

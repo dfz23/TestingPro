@@ -1,0 +1,37 @@
+﻿<div class="panel panel-primary">
+    <div class="panel-heading">New Contact</div>
+    <div class="panel-body">
+        <form class="form-horizontal" role="form" id="contactForm" name="contactForm">
+            <div class="form-group">
+                <label for="firstName" class="col-sm-3 control-label" >First Name</label>
+                <div class="col-sm-6">
+                    <input type="text" id="firstName" name="fisrtName" class="form-control" ng-model="contact.fisrtName" ng-required="true" placeholder="FirstName"/>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="lastName" class="col-sm-3 control-label">Last Name</label>
+                <div class="col-sm-6">
+                    <input type="text" id="lastName" name="lastName" class="form-control" ng-model="contact.lastName" ng-required="true" placeholder="LastName" />
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="email" class="col-sm-3 control-label">Email</label>
+                <div class="col-sm-6">
+                    <input type="email" id="email" name="email" class="form-control" ng-model="contact.email" ng-required="true" placeholder="email" />
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="mobile" class="col-sm-3 control-label">Mobile #</label>
+                <div class="col-sm-6">
+                    <input type="text" id="mobile" name="mobile" class="form-control" ng-model="contact.mobile" placeholder="Mobile #" />
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-md-3 col-sm-3 col-sm-offset-3 col-md-offset-3">
+                    <input type="button" id="cancelSave" name="cancelSave" value="Cancel" class="btn btn-warning" />
+                    <input type="submit" id="submitForm" name="submitForm" value="Save" class="btn btn-primary" />
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
