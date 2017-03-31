@@ -1,17 +1,17 @@
 ﻿contactApp.config(['$routeProvider', function ($routeProvider) {
 
         $routeProvider.when('/', {
-            templateUrl: "/app/Home/home.html"
+            templateUrl: "app/home/home.html"
         }),
         $routeProvider.when('/about', {
-            templateUrl: "/app/home/ablout.html"
+            templateUrl: "app/home/about.html"
         }),
         $routeProvider.when('/mycontacts', {
-            templateUrl: "app/contact/html/contactList.html",
+            templateUrl: "/app/contact/html/contactList.html",
             controller: "contactController"
         }),
         $routeProvider.when('/mycontacts/newcontact', {
-            templateUrl: "app/contact/html/contactForm.html"
+            templateUrl: "/app/contact/html/contactForm.html"
         }),
         $routeProvider.otherwise({
             redirectTo: '/'

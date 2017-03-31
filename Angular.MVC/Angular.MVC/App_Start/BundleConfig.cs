@@ -26,7 +26,7 @@ namespace Angular.MVC
                 "~/Scripts/angular.js",
                 "~/Scripts/angular-route.js",
                 "~/Scripts/angular-resource.js",
-                "~/Scripts/angular-ui/bootstrap.js",
+                "~/Scripts/angular-ui-bootstrap.js",
 
                 "~/App/contactApp.js",
                 "~/App/clientRoute.js",
